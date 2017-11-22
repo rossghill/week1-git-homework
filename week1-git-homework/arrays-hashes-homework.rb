@@ -2,7 +2,18 @@
 
 # A. Given the following data structure:
 
+# 1. Add `"Edinburgh Waverley"` to the end of the array
+# 2. Add `"Glasgow Queen St"` to the start of the array
+# 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
+# 4. Work out the index position of `"Linlithgow"`
+# 5. Remove `"Livingston"` from the array using its name
+# 6. Delete `"Cumbernauld"` from the array by index
+# 7. How many stops there are in the array? (9)
+# 8. How many ways can we return `"Falkirk High"` from the array?
+# 9. Reverse the positions of the stops in the array
+# 10. Print out all the stops using a for loop
 
+# ***MY ANSWERS***
 # stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 #
 # stops << "Edinburgh Waverley"
@@ -15,18 +26,6 @@
 # for each_stop in stops
 #   p each_stop
 # end
-
-
-# 1. Add `"Edinburgh Waverley"` to the end of the array
-# 2. Add `"Glasgow Queen St"` to the start of the array
-# 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
-# 4. Work out the index position of `"Linlithgow"`
-# 5. Remove `"Livingston"` from the array using its name
-# 6. Delete `"Cumbernauld"` from the array by index
-# 7. How many stops there are in the array? (9)
-# 8. How many ways can we return `"Falkirk High"` from the array?
-# 9. Reverse the positions of the stops in the array
-# 10. Print out all the stops using a for loop
 
 ## B. Given the following data structure:
 
@@ -62,6 +61,17 @@
     },
   }
 
+# 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+# 2. Get Erik's hometown
+# 3. Get the array of Erik's favourite numbers
+# 4. Get the type of Avril's pet Colin
+# 5. Get the smallest of Erik's favourite numbers
+# 6. Add the number `7` to Erik's favourite numbers
+# 7. Change Erik's hometown to Edinburgh
+# 8. Add a pet dog to Erik called "Fluffy"
+# 9. Add yourself to the users hash
+
+# ***MY ANSWERS***
 # p users["Jonathan"][:twitter]
 # p users["Erik"][:home_town]
 # # p users["Erik"][:favourite_numbers]
@@ -76,16 +86,6 @@
 # users["Ross"] = {}
 # p users["Ross"]
 # p users
-
-# 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
-# 2. Get Erik's hometown
-# 3. Get the array of Erik's favourite numbers
-# 4. Get the type of Avril's pet Colin
-# 5. Get the smallest of Erik's favourite numbers
-# 6. Add the number `7` to Erik's favourite numbers
-# 7. Change Erik's hometown to Edinburgh
-# 8. Add a pet dog to Erik called "Fluffy"
-# 9. Add yourself to the users hash
 
 # C. Given the following data structure:
 
@@ -106,8 +106,9 @@ united_kingdom = [
   }
 ]
 
-united_kingdom[1][:capital] = "Cardiff"
-p united_kingdom
+# united_kingdom[1][:capital] = "Cardiff"
+# p united_kingdom
+# united_kingdom[3][:name] = "Belfast"
 
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
